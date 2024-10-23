@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT3 - Sara</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+<form class="header">
+    <button class="h-btn"><a href="cart.html">Cart</a></button>
+    <button class="h-btn"><a href="sign_up_log_in.html">Sign Up / Log In</a></button>
+</form>
+
+
+
+
+
+
+<!-- NAVIGATION -->
+<div class="navigation">
+    <img src="images/AG_logo.png" class="center" style="height: 120px;">
+</div>
+<hr style="border-color: rgb(194, 128, 255); border-style: solid; border-width: 3px;">
+<hr style="border-color: aquamarine; border-style: solid; border-width: 3px;">
+<hr style="border-color: white; border-style: solid; border-width: 3px;">
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="club_portal.html">Club Portal</a>
+            <ul class="dropdown">
+                <li><a href="#section3" class="btn">Club Policies</a></li>
+                <li><a href="#section4" class="btn">Junior Squad</a></li>
+                <li><a href="#section5" class="btn">Intermediate Squad</a></li>
+                <li><a href="#section6" class="btn">Senior Squad</a></li>
+            </ul>
+        </li>
+        <li><a href="uniform_shop.html">Uniform Shop</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+
+
+
+
+
+<!-- PAGE CONTENT -->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="images/1.png" style="width: 100%;">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/2.png" style="width: 100%;">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/3.png" style="width: 100%;">
+    </div>
+</div>
+<br>
+<div style="text-align:center;">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+<hr style="border-color: rgb(242, 232, 255); border-style: solid; border-width: 2px;">
+<div class="quote">
+    <p>Start here, go anywhere!</p>
+</div>
+<hr style="border-color: rgb(242, 232, 255); border-style: solid; border-width: 2px;">
+<div class="home-content">
+    <div style="text-align: right;">
+        <img src="images/our club.JPG" style="height: 400px; padding: 50px 30px 10px 0px;">
+    </div>
+    <div style="padding: 50px 0px 10px 30px;">
+        <h2>Our Club</h2>
+        <br>
+        <p>Since 2007, Aurora Gymnastics has proudly established itself as one of the leading clubs in Australia.</p>
+        <br>
+        <p>Our gymnasts consistently achieve at a state, national and international level and our family feel, paired with outstanding quality gymnastics, is second to none.</p>
+        <br>
+        <p>Aurora Gymnastics is also the only club in the Sutherland Shire to offer a specialised, dedicated Rhythmic Gymnastics program and our staff are extremely friendly, passionate and most importantly experienced.</p>
+        <br>
+        <p>We have classes to suit all levels and abilities and pride ourselves on providing quality coaching in a safe learning environment.</p>
+        <br>
+        <p>Whether you’re interested in a fun, after school activity or keen to experience high level competitive sport, we have a class for you.</p>
+        <br>
+        <button class="find-out-btn"><a href="about_us.html">Find out More!</a></button>
+    </div>
+</div>
+<hr class="solid-1" style="border-color: rgb(249, 244, 255);">
+<br>
+
+
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <div style="padding: 175px 0px;">
+        <h4 style="color:aquamarine; font-weight: bold;">AURORA GYMNASTICS</h4>
+        <br>
+        <br>
+        <p style="color: rgb(206, 206, 206); font-style: oblique;">~ NSW Club and Coaching Team of the Year ~</p>
+        <br>
+        <br>
+        <p style="color: rgb(206, 206, 206); font-style: oblique;">~ AUS Coaching Team of the Year ~</p> 
+    </div>
+    <div style="padding: 150px 0px;">
+        <img src="images/Aurora-Gymnastics-Logo-dark-square-e1705467727800-600x465.png" style="height: 200px;">
+    </div>
+    <div class="container">
+        <h4 style="color:aquamarine; font-weight: bold;">Contact Us!</h4>
+        <br>
+        <!-- generate a contact form on the page with a message box, number | email // address // message box -->
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="fullname" placeholder="Full Name">
+        
+            <label for="mobile">Mobile</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Mobile Number">
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email">
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message for us here..." style="height:50px"></textarea>
+        
+            <input type="button" value="Submit" onclick="submitted()">
+            <div id="submit"></div>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
